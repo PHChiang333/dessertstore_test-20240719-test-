@@ -1,0 +1,127 @@
+.product-bg-0 {
+    background-image: url(https://bit.ly/2Qodh3Z);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 277px;
+
+    @include media-breakpoint-up(md) {
+        height: 496px;
+    }
+}
+
+.product-item-bg-1 {
+    background-image: url(https://bit.ly/2QiWeQW);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 315px;
+
+    @include media-breakpoint-up(md) {
+        width: 300px;
+    }
+}
+
+.product-item-bg-2 {
+    background-image: url(https://bit.ly/2zBjQuq);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 315px;
+
+    @include media-breakpoint-up(md) {
+        width: 300px;
+    }
+}
+
+.product-item-bg-3 {
+    background-image: url(https://bit.ly/2zKOP7w);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 315px;
+
+    @include media-breakpoint-up(md) {
+        width: 300px;
+    }
+}
+
+.product-item-bg-4 {
+    background-image: url(https://bit.ly/2NcDVuB);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 315px;
+
+    @include media-breakpoint-up(md) {
+        width: 300px;
+    }
+
+}
+
+.product-item-bg-5 {
+    background-image: url(https://bit.ly/2zBDAxX);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 315px;
+
+    @include media-breakpoint-up(md) {
+        width: 300px;
+    }
+
+}
+
+.product-item-bg-6 {
+    background-image: url(https://bit.ly/2zL5jN7);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 315px;
+
+    @include media-breakpoint-up(md) {
+        width: 300px;
+    }
+}
+
+
+
+.product-list-title {
+    background-color: $primary;
+    color: $secondary-bg;
+
+}
+
+.dailySelected {
+    font-size: 16px;
+    background-color: $primary;
+    color: $secondary-bg-0;
+    width: 37.8px;
+    height: 106.73px;
+}
+
+.product {
+    ul {
+        padding-left: 0;
+    }
+
+}
+
+.page-item-page:hover,
+.page-item-page a:hover {
+    background-color: $primary;
+    color: $secondary-bg-0;
+    font-weight: 700;
+}
+
+.product .page-item {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    outline: 1px solid $secondary-bg-0 ;
+}
+
+// -------------------------------------------------

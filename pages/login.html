@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- stylesheet use bootstrap 5.3.3 by npm and custom.scss -->
+    <!-- assets includes imgs and scss -->
+    <title>Rocket17th dessert store</title>
+    <!-- google fonts and icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+
+
+</head>
+
+<body>
+    <!-- header -->
+    <%- include('./layout/header'); -%>
+
+        <!-- content -->
+
+
+        <!-- https://www.casper.tw/F2E-PK/register.html -->
+        <section class="login">
+            <div class="container no-gutters px-md-60px pb-md-60px">
+                <div class="row flex-md-row-reverse justify-content-md-center">
+                    <div class="col-12 d-md-none bg-primary">
+                        <p class="member-login-title py-30px">會員登入</p>
+                    </div>
+                    <!-- ----------------- -->
+                    <div class="col-md-390px py-md-15px  align-self-md-center">
+                        <div class="bg-secondary-bg-0 py-30px px-30px py-md-40px">
+                            <h2 class="text-center d-none d-md-block login-social-title mb-md-36px">—— 連結社群帳號 ——</h2>
+                            <div class="row no-gutters">
+                                <div class="col-4 col-md-12 mb-md-16px bg-white py-md-8px text-center">
+                                    <button class="btn btn-block h-100">
+                                        <img src="/assets/images/ic-facebook-logotype.svg" class="img-fluid" style="width:108px;"
+                                            alt="">
+                                    </button>
+                                </div>
+                                <div class="col-4 col-md-12 mb-md-16px bg-white py-md-8px text-center">
+                                    <button class="btn btn-block h-100">
+                                        <img src="/assets/images/ic-google.svg" class="img-fluid" style="width:94px;" alt="">
+                                    </button>
+                                </div>
+                                <div class="col-4 col-md-12 bg-white py-md-8px text-center">
+                                    <button class="btn btn-block h-100">
+                                        <img src="/assets/images/ic-yahoo.svg" class="img-fluid" style="width:97px;" alt="">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ----------------- -->
+                    <div class="col-md-390px">
+                        <div class="bg-primary d-md-block d-none">
+                            <h1 class="text-center text-white py-md-40px mb-md-0">會員登入</h1>
+                        </div>
+                        <div class="px-30px py-30px bg-primary py-md-0 pb-md-25px">
+                            <div class="form-square form-square-withicon d-flex justify-content-between bg-secondary-bg-0 py-16px px-20px mb-16px">
+                                <label for="username" class="material-icons form-square-icon-left">
+                                    person
+                                </label>
+                                <input type="text" id="username" class="ml-20px form-input w-100 bg-secondary-bg-0 border-none" placeholder="電子信箱/手機號碼">
+
+                            </div>
+                            <div class="form-square form-square-withicon d-flex justify-content-between  bg-secondary-bg-0 py-16px px-20px mb-16px">
+                                <label for="password" class="material-icons form-square-icon-left">
+                                    vpn_key
+                                </label>
+                                <input type="password" id="password" class="ml-20px form-input w-100 bg-secondary-bg-0 login-input border-none" placeholder="請輸入使用者密碼">
+
+                            </div>
+                            <div class="custom-control custom-checkbox mb-0">
+                                <input type="checkbox" class="custom-control-input mr-8px" id="rememberme">
+                                <label class="custom-control-label text-white" for="rememberme">記住我</label>
+                            </div>
+                        </div>
+                        <button class="btn btn-info d-block w-100 rounded-0 text-primary py-16px px-30px fz-24 font-weight-bold">登入帳號</button>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </section>
+
+
+
+
+
+        <!-- section-subscription -->
+        <%- include('./layout/sectionSubscription'); -%>
+            <!-- footer -->
+            <%- include('./layout/footer'); -%>
+                <!-- vite js -->
+                <script type="module" src="../main.js"></script>
+</body>
+
+</html>

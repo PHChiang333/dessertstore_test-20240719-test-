@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- stylesheet use bootstrap 5.3.3 by npm and custom.scss -->
+  <!-- assets includes imgs and scss -->
+  <title>Rocket17th dessert store</title>
+  <!-- google fonts and icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+
+
+</head>
+
+<body>
+  <!-- header -->
+  <%- include('./layout/header'); -%>
+
+    <!-- content -->
+
+    <main>
+      <!-- section hit list -->
+      <section class="container">
+        <div class="col-12 hit-bg-0">
+        </div>
+        <div class="row ml-0 mr-0 pl-md-col-1 px-md-col-1 mt-md--80px">
+          <div class="col-4 hit-bg-1 pl-0 pr-0">
+            <div class="blur bg-primary opacity-half">
+              <div class="pr-0 pl-0  d-flex justify-content-center align-items-center hover-info py-40px py-md-63px">
+                <a href="#" class="writing-vertical-lr text-white bg-primary  fz-20 fz-md-24">本日精選</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 hit-bg-2 pl-0 pr-0">
+            <div class="blur bg-primary opacity-half">
+              <div class="pr-0 pl-0  d-flex justify-content-center align-items-center hover-info  py-40px py-md-63px">
+                <a href="#" class="writing-vertical-lr text-white bg-primary  fz-20 fz-md-24">人氣推薦</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 hit-bg-3 pl-0 pr-0">
+            <div class="blur bg-primary opacity-half">
+              <div class="pr-0 pl-0 d-flex justify-content-center align-items-center hover-info py-40px py-md-63px ">
+                <a href="#" class="writing-vertical-lr text-white bg-primary fz-20 fz-md-24">新品上市</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- section slogon first -->
+      <section class="container">
+        <div class="row g-0 flex-column flex-md-row bg-secondary-bg-0">
+          <div class="slogan col-12 col-md-2">
+            <img src="/assets/images/sm-橫式-為什麼選擇了做甜點.svg" alt="" style="width: 196px ;height: 60px;" class="d-md-none">
+            <img src="/assets/images/lg-為什麼選擇了做甜點.svg" alt="" style="width: 88.94px ;height: 307.15px;" class="d-none d-md-block">
+
+          </div>
+          <div class="slogan col-12 col-md-6 slogan-bg-1"></div>
+          <div class="slogan col-12 col-md-4">
+            <p>青山依舊在，幾度夕陽紅。慣看秋月春風。</p>
+
+              <p>一壺濁酒喜相逢，浪花淘盡英雄。是非成敗轉頭空，滾滾長江東逝水，白髮漁樵江渚上，古今多少事，都付笑談中。</p>
+              
+              <p>是非成敗轉頭空，滾滾長江東逝水，白髮漁樵江渚上，古今多少事，都付笑談中。</p>
+          </div>
+        </div>
+
+
+
+      </section>
+      <!-- section slogon second -->
+
+      <!-- section slogon third and recommanded list -->
+
+
+
+
+    </main>
+
+
+
+
+
+    <!-- section-subscription -->
+    <%- include('./layout/sectionSubscription'); -%>
+      <!-- footer -->
+      <%- include('./layout/footer'); -%>
+        <!-- vite js -->
+        <script type="module" src="../main.js"></script>
+</body>
+
+</html>

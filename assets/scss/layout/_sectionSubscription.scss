@@ -1,0 +1,25 @@
+.subscription {
+    background-color: $primary;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    @include media-breakpoint-up(md) {
+        padding-right: 0;
+        padding-left: 0;
+        .container{
+            padding-right: 80px;//內縮col*1+gutter*1
+            padding-left: 80px; //內縮col*1+gutter*1
+        }
+    }
+}
+
+.iconSubscription {
+    padding: 16px 20px;
+}
+
+.btn-subscription {
+    padding: 20px 24px;
+    border-radius: 0%;
+}

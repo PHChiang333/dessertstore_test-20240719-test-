@@ -1,0 +1,35 @@
+//global
+
+ //google font 
+ // Noto Sans Traditional Chinese
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+
+
+
+*,
+* {
+    box-sizing: border-box;
+    outline: 1px dashed gray; // for testing
+}
+
+body {
+    font-family: "Noto Sans TC",serif;  
+    //theme font: PingFang TC for Mac or Noto Sans for Windows
+    //
+    font-size: 16px;
+    color: $primary;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: $primary;
+}
+
+p{
+    margin-bottom: 0;
+}
