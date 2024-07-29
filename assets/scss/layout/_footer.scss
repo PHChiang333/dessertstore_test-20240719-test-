@@ -1,0 +1,56 @@
+.footer {
+    background-color: $secondary-bg;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    @include media-breakpoint-up(md) {
+        padding-right: 0;
+        padding-left: 0;
+        .container{
+            padding-right: 80px;//內縮col*1+gutter*1
+            padding-left: 80px; //內縮col*1+gutter*1
+        }
+    }
+
+}
+
+.pl-md-0{
+    padding-left: 0;
+}
+.pl-md-30px{
+    @include media-breakpoint-up(md) {
+        padding-left: 60px;
+    }
+}
+.mb-40px{
+    margin-bottom: 40px;
+}
+
+.mr-8px{
+    margin-right: 8px;
+}
+
+.pt-7px{
+padding-top: 7px;
+} 
+.pt-md-0{
+    @include media-breakpoint-up(md) {
+        padding-top: 0;
+    }
+}
+
+
+.pb-7px{
+    padding-bottom: 7px;
+}
+.pb-md-0{
+    @include media-breakpoint-up(md) {
+        padding-bottom: 0;
+    }
+}
+.pt-16px{
+    padding-top: 16px;
+}
+

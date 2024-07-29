@@ -1,0 +1,65 @@
+.hit-bg-0 {
+  background-image: url(https://bit.ly/2OhbMHr);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 277px;
+
+  @include media-breakpoint-up(md) {
+    height: 496px;
+  }
+}
+
+.section-hit ul {
+  padding: 0;
+}
+
+.hover-info:hover,
+.hover-info:hover>a {
+  background-color: $info !important;
+  color: $primary !important;
+  font-weight: 700;
+}
+
+.hit-bg-1 {
+  background-image: url(https://bit.ly/2R5tqwD);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.hit-bg-2 {
+  background-image: url(https://bit.ly/2Dwoxd7);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.hit-bg-3 {
+  background-image: url(https://bit.ly/2OUteif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.slogan-bg-1 {
+  background-image: url(https://bit.ly/2xPn7Eq);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+  @include media-breakpoint-up(md) {
+    width: 460px;
+    height: 460px;
+  }
+
+}
+
+
+.bg-secondary-bg-0{
+  background-color: #EAF0ED;
+}

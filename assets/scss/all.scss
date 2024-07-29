@@ -1,0 +1,78 @@
+// reset
+@import './reset';
+
+
+//npm i bootstrap@5.3.3
+// @import "/node_modules/bootstrap/scss/bootstrap";
+
+// Custom.scss
+// Option B: Include parts of Bootstrap
+
+// // 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+// @import "../../node_modules/bootstrap/scss/functions";
+// @import "/node_modules/bootstrap/scss/functions";
+@import "/node_modules/bootstrap/scss/functions";
+// // 2. Include any default variable overrides here
+@import "/assets/scss/helpers/variables";
+
+// // 3. Include remainder of required Bootstrap stylesheets (including any separate color mode stylesheets)
+@import "/node_modules/bootstrap/scss/variables";
+@import "/node_modules/bootstrap/scss/variables-dark";
+
+
+// 目的：container 設置在最大寬度時左右 padding 0
+// 作法：_container_scss %responsive-container-#{$breakpoint} 設置 @if $breakpoint == "xxl"
+
+// @import "utils/utilities";
+
+// // 4. Include any default map overrides here
+
+// // 5. Include remainder of required parts
+@import "/node_modules/bootstrap/scss/maps";
+@import "/node_modules/bootstrap/scss/mixins";
+@import "/node_modules/bootstrap/scss/utilities";
+
+// // // 6. Optionally include any other parts as needed
+// @import "/node_modules/bootstrap/scss/root";
+// @import "/node_modules/bootstrap/scss/reboot";
+// @import "/node_modules/bootstrap/scss/type";
+// @import "/node_modules/bootstrap/scss/images";
+// @import "/node_modules/bootstrap/scss/containers";
+// @import "/node_modules/bootstrap/scss/grid";
+// @import "/node_modules/bootstrap/scss/buttons";
+// @import "/node_modules/bootstrap/scss/card";
+// @import "/node_modules/bootstrap/scss/helpers";
+
+// // // 7. Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`
+// @import "/node_modules/bootstrap/scss/utilities/api";
+
+// bootstrap.scc 可以替代 component + helpers + utilities API
+@import "/node_modules/bootstrap/scss/bootstrap";
+
+// 8. Add additional custom code here
+
+//global
+@import "/assets/scss/helpers/global";
+@import "/assets/scss/helpers/custom";
+
+//layouts
+@import "/assets/scss/layout/header";
+
+@import "/assets/scss/layout/sectionSubscription";
+@import "/assets/scss/layout/footer";
+
+//pages
+
+@import "/assets/scss/pages/index";
+@import "/assets/scss/pages/login";
+@import "/assets/scss/pages/product";
+// @import "/assets/scss/pages/product-other";
+@import "/assets/scss/pages/cart";
+@import "/assets/scss/pages/checkout-1";
+@import "/assets/scss/pages/checkout-2";
+@import "/assets/scss/pages/checkout-3-1";
+@import "/assets/scss/pages/checkout-3-2";
+@import "/assets/scss/pages/checkout-success";
+
+// website utilities 
+
